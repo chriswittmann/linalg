@@ -2,34 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-/*
-Goals:
-Resolve matrix dimensions (currently they are transposed)
-Two dimensional inverse
-Three dimensional inverse (use submatrix determinants)
-
-Make functions to free memory allocated to matrices or vectors
-
-Make determinant pick optimal (greatest number of zeros) direction (top row or left column).
-
-Make cholesky struct, LU struct, SVD struct.
-when looking to solve Ax=b, run A through conditional checks to decide on method
-then 
-
-
-Eigenvalues
-Eigenvectors
-Principal components
-Linear Discriminant Analysis
-
-LU decomposition
-LDL' Cholesky factorization
-QR decomposition
-
-Gram-schmidt
-
-*/
-
 typedef struct Vector {
     int length;
     double* values;
